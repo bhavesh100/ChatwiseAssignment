@@ -3,7 +3,6 @@ package com.bhavesh.chatwiseassignment.domain.model
 import android.os.Parcelable
 import com.bhavesh.chatwiseassignment.data.remote.dto.Dimensions
 import kotlinx.parcelize.Parcelize
-import java.io.Serializable
 
 @Parcelize
 data class Product(
@@ -14,9 +13,7 @@ data class Product(
     val discountPercentage: Double,
     val rating: Double,
     val stock: Int,
-//    val brand: String,
     val sku: String,
-//    val weight: Int,
     val dimensions: Dimensions,
     val warrantyInformation: String,
     val shippingInformation: String,

@@ -16,6 +16,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
     @Provides
     @Singleton
     fun provideProductsApi(): ProductsApi {
@@ -31,4 +32,5 @@ object AppModule {
     fun provideProductsRepository(api: ProductsApi):ProductsRepository {
         return ProductsRepositoryImpl(api)
     }
+
 }

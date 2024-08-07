@@ -1,8 +1,6 @@
 package com.bhavesh.chatwiseassignment.data.remote.dto
 
-import android.os.Parcelable
 import com.bhavesh.chatwiseassignment.domain.model.Product
-import kotlinx.parcelize.Parcelize
 
 data class Product(
     val availabilityStatus: String,
@@ -36,9 +34,7 @@ data class Product(
         discountPercentage = discountPercentage,
         rating = rating,
         stock = stock,
-//        brand = brand,
         sku = sku,
-//        weight = weight,
         dimensions = dimensions,
         warrantyInformation = warrantyInformation,
         shippingInformation = shippingInformation,
