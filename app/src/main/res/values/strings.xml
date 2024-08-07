@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChatwiseAssignment</string>
+
+        <!-- Existing strings -->
+
+        <string name="price_format">Price: $%.2f</string>
+        <string name="rating_format">Rating: %.1f</string>
+        <string name="stock_format">Stock: %d</string>
+        <string name="brand_format">Brand: %s</string>
+        <string name="sku_format">SKU: %s</string>
+        <string name="weight_format">Weight: %d grams</string>
+        <string name="dimensions_format">Dimensions: %s x %s x %s</string>
+
+</resources>

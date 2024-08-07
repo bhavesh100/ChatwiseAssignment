@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Product Image"
+            android:background="@drawable/image_placeholder"/>
+
+        <!-- Product Title -->
+        <TextView
+            android:id="@+id/productTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"/>
+
+        <!-- Product Rating -->
+        <TextView
+            android:id="@+id/productRatingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Stock -->
+        <TextView
+            android:id="@+id/productStockTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product SKU -->
+        <TextView
+            android:id="@+id/productSkuTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Dimensions -->
+        <TextView
+            android:id="@+id/productDimensionsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Warranty Information -->
+        <TextView
+            android:id="@+id/productWarrantyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Shipping Information -->
+        <TextView
+            android:id="@+id/productShippingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Availability Status -->
+        <TextView
+            android:id="@+id/productAvailabilityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+        <!-- Product Return Policy -->
+        <TextView
+            android:id="@+id/productReturnPolicyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
