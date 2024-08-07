@@ -2,6 +2,12 @@
 
 This is a demo Android application showcasing a three-screen interface for viewing and interacting with a list of products. The application fetches data from an API and displays it using RecyclerView. The project emphasizes proper code quality and architecture.
 
+## Download
+
+[Download the APK](https://www.dropbox.com/scl/fi/f2e6077zk3r4hdkyjuy0j/ChatwiseAssignment.apk?rlkey=2ck9snhlcdghvto6shvfxrxbi&st=odozgzn8&dl=0
+)
+
+
 ## Features
 
 1. **Main Screen (MainActivity)**: Contains a button to view products. Clicking the button navigates to the second screen.
