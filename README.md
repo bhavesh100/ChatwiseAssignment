@@ -10,9 +10,9 @@ This is a demo Android application showcasing a three-screen interface for viewi
    - Product items fetched from the API.
 3. **Product Detail Screen (ProductDetailActivity)**: Displays detailed information about a selected product. Users can navigate to this screen by clicking on any item in the second screen.
 
-## Wireframe
-
-(Include wireframe images here if available)
+## ScreenShots
+![screenshotlight](https://github.com/user-attachments/assets/87cec496-e90f-4938-9a85-c9ad9c55b96d)
+![screenshotdark](https://github.com/user-attachments/assets/8a64cbb0-9eb1-4a11-a288-2e85ce1eabef)
 
 ## API
 
@@ -41,3 +41,4 @@ This is a demo Android application showcasing a three-screen interface for viewi
 4. **Run the app**:
     - Connect your device or start an emulator.
     - Click on the 'Run' button in Android Studio.
+
